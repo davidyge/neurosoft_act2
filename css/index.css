@@ -1,0 +1,20 @@
+.bg-registration {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/registration.jpg), no-repeat center center;
+    background-size: cover;
+  }
+.mb-4,
+.my-4 {
+  margin-bottom: 1.5rem !important;
+}
+.card-body{
+    background-color: #fd7e14;
+    border-radius: 10px;
+    border-color: #ca0805;
+}
+.card_todo{
+    border-radius: 10px;
+}
+
+.py-2{
+    color: black;
+}
