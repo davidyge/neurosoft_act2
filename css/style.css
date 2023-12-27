@@ -945,6 +945,22 @@ ul.sign li a i {
      line-height: 28px;
 }
 
+.blue_c {
+     color: #154492;
+     font-size: 17px;
+     font-weight: bold;
+     text-transform: uppercase;
+     line-height: 28px;
+}
+
+.black {
+     color: #000000;
+     font-size: 17px;
+     font-weight: bold;
+     text-transform: uppercase;
+     line-height: 28px;
+}
+
 .titlepage p {
      font-size: 20px;
      color: #090a0b;
@@ -991,7 +1007,6 @@ ul.sign li a i {
 
 .about .titlepage {
      text-align: left;
-
 }
 
 .about_img {
@@ -1025,9 +1040,9 @@ ul.sign li a i {
 .about_box span {
      font-size: 17px;
      font-weight: 600;
-     color: #f2db18;
+     color: #154492;
      line-height: 30px;
-     padding-top: 25px;
+     padding-top: 18px;
      text-transform: uppercase;
      display: block;
 }
@@ -1038,12 +1053,12 @@ ul.sign li a i {
 
 .about_box p {
      font-size: 17px;
-     padding-top: 25px;
+     padding-top: 0px;
      line-height: 30px;
      text-align: left;
      color: #0d0d0d;
      display: inline-block;
-     padding-bottom: 30px;
+     padding-bottom: 20px;
 }
 
 .margin_bottom2 {
@@ -3019,7 +3034,7 @@ body {
 .about_box_restaurant span {
      font-size: 17px;
      font-weight: 600;
-     color: #f2db18;
+     color: #154492;
      line-height: 30px;
      padding-top: 25px;
      text-transform: uppercase;
