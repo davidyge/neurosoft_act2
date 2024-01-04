@@ -10,13 +10,14 @@ async function enviarDatos(formularioId) {
   // Validar que los campos no estén vacíos
   if (!nombre || !ruc || !telefono) {
     // Mostrar mensaje de error si algún campo está vacío
+    //https://sheet.best/api/sheets/94f95403-6827-4c5d-ac66-a464a04b8eb6 ANTIGUO
     mensajeExito.textContent = 'Por favor, completa todos los campos.';
     mensajeExito.className = 'alert alert-danger mt-3';
     return;
   }
 
   try {
-    const response = await fetch('https://sheet.best/api/sheets/94f95403-6827-4c5d-ac66-a464a04b8eb6', {
+    const response = await fetch('https://sheet.best/api/sheets/2994802f-fc4b-4bbd-b8da-8225fdcf88a0', {
       method: 'POST',
       mode: 'cors',
       headers: {
