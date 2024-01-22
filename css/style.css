@@ -4583,8 +4583,15 @@ body {
 
 }
 
-.form_banner .espacio {
-     width: 100%;
+/*BUTTON RUBROS INICIO*/
+.banner_main .box_rubro {
+     background-color: #f3f2f2;
+     padding-bottom: 10px;
 }
 
-/*BUTTON RUBROS INICIO*/
+.banner_main .box_rubro .box_espacio {
+     background-color: #ffffff;
+     width: 100%;
+     color: #000000;
+     font-weight: 500;
+}
