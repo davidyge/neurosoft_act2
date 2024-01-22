@@ -4587,6 +4587,7 @@ body {
 .banner_main .box_rubro {
      background-color: #F3F2F2;
      padding-bottom: 15px;
+
 }
 
 .banner_main .box_rubro .box_espacio {
@@ -4595,4 +4596,6 @@ body {
      color: #000000;
      font-weight: 500;
      height: 70px;
+     border-radius: 5px;
+     padding-left: 20px;
 }
