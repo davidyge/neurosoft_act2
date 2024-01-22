@@ -839,6 +839,7 @@ ul.sign li a i {
 .text-bg {
      text-align: left;
      padding-top: 120px;
+     margin-top: 80px;
 }
 
 .text-bg h1 {
@@ -2816,13 +2817,23 @@ body {
 
 .text-bg h1 {
      color: #fff;
-     font-size: 60px;
+     font-size: 62px;
      line-height: 70px;
      font-weight: bold;
 }
 
 /** About end banner section **/
+/*Celulares index banner*/
+@media (max-width: 768px) and (min-width: 360px) {
+     .text-bg {
+          text-align: left;
+          margin-top: -70px;
+     }
 
+     .banner_main .texto {
+          margin-top: -90px;
+     }
+}
 
 /*inicio de servicios*/
 
@@ -4570,6 +4581,10 @@ body {
           width: 90%;
      }
 
+}
+
+.form_banner .espacio {
+     width: 100%;
 }
 
 /*BUTTON RUBROS INICIO*/

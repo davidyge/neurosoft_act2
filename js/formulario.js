@@ -6,11 +6,12 @@ async function enviarDatos(formularioId) {
   const nombre = formulario.querySelector('[name^="nombre"]').value.trim();
   const ruc = formulario.querySelector('[name^="ruc"]').value.trim();
   const telefono = formulario.querySelector('[name^="telefono"]').value.trim();
+  const rubro = formulario.querySelector('[name^="rubro"]').value.trim();
+  const otroRubro = formulario.querySelector('[name^="otroRubro"]').value.trim();
 
   // Validar que los campos no estén vacíos
-  if (!nombre || !ruc || !telefono) {
+  if (!nombre || !ruc || !telefono || !rubro || (rubro.trim() === "Elegir rubro") || (rubro === "otros" && !otroRubro)) {
     // Mostrar mensaje de error si algún campo está vacío
-    //https://sheet.best/api/sheets/94f95403-6827-4c5d-ac66-a464a04b8eb6 ANTIGUO
     mensajeExito.textContent = 'Por favor, completa todos los campos.';
     mensajeExito.className = 'alert alert-danger mt-3';
     return;
@@ -27,6 +28,8 @@ async function enviarDatos(formularioId) {
         "Nombre": nombre,
         "Ruc": ruc,
         "Telefono": telefono,
+        "Rubro": rubro,
+        "OtroRubro": otroRubro,
       }),
     });
 
@@ -49,3 +52,4 @@ async function enviarDatos(formularioId) {
     mensajeExito.className = 'alert alert-danger mt-3';
   }
 }
+
