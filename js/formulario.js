@@ -18,7 +18,7 @@ async function enviarDatos(formularioId) {
   }
 
   try {
-    const response = await fetch('https://sheet.best/api/sheets/2994802f-fc4b-4bbd-b8da-8225fdcf88a0', {
+    const response = await fetch('https://sheet.best/api/sheets/8629ae79-b329-47fa-8b80-ad5d7d5823d4', {
       method: 'POST',
       mode: 'cors',
       headers: {
