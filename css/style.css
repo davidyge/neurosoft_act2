@@ -882,7 +882,7 @@ ul.sign li a i {
 }
 
 .card-body_2 {
-     background-color: #f3f2f2;
+     background-color: #fbf8f8;
      border-radius: 10px;
 }
 
@@ -893,8 +893,8 @@ ul.sign li a i {
 }
 
 #card-body_2_h3 {
-     font-weight: bold;
-     color: #726f6f;
+     font-weight: 500;
+     color: #000000;
      font-size: 18px;
 }
 
@@ -1069,7 +1069,7 @@ ul.sign li a i {
      margin-top: 7px;
      padding: 8px 0;
      margin-left: 40px;
-     background-color: #FA792F;
+     background-color: #ff4f15;
      max-width: 168px;
      width: 100%;
      display: inline-block;
@@ -2091,21 +2091,21 @@ ul.img_icon li {
 .buy-button {
      background-color: red;
      color: white;
-     padding: 10px;
+     padding: 15px;
      border: none;
      cursor: pointer;
-     font-size: 16px;
+     font-size: 18px;
      font-weight: bold;
      /* Texto en negrita */
 }
 
 .buy-button:hover {
-     background-color: #ff4314;
+     background-color: #ff2f14;
      color: white;
-     padding: 10px;
+     padding: 16px;
      border: none;
      cursor: pointer;
-     font-size: 16px;
+     font-size: 19px;
      font-weight: bold;
      /* Texto en negrita */
 }
@@ -2360,12 +2360,13 @@ body {
 #generic_price_table .generic_content.active .generic_head_price .generic_head_content .head_bg,
 #generic_price_table .generic_content:hover .generic_head_price .generic_head_content .head_bg {
      border-color: #ca0805 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #ca0805;
-     color: #fff;
+     color: #ffffff;
 }
 
 #generic_price_table .generic_content:hover .generic_head_price .generic_head_content .head span,
 #generic_price_table .generic_content.active .generic_head_price .generic_head_content .head span {
-     color: #fff;
+     color: #ffffff;
+     font-weight: bold;
 }
 
 #generic_price_table .generic_content:hover .generic_price_btn a,
