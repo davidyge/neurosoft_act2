@@ -16,9 +16,9 @@ async function enviarDatos(formularioId) {
     mensajeExito.className = 'alert alert-danger mt-3';
     return;
   }
-
+  //https://sheet.best/api/sheets/8629ae79-b329-47fa-8b80-ad5d7d5823d4
   try {
-    const response = await fetch('https://sheet.best/api/sheets/8629ae79-b329-47fa-8b80-ad5d7d5823d4', {
+    const response = await fetch('https://sheetdb.io/api/v1/l7hmd8vpeufb9', {
       method: 'POST',
       mode: 'cors',
       headers: {
