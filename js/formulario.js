@@ -10,12 +10,14 @@ async function enviarDatos(formularioId) {
   const otroRubro = formulario.querySelector('[name^="otroRubro"]').value.trim();
 
   // Validar que los campos no estén vacíos
+
   if (!nombre || !ruc || !telefono || !rubro || (rubro.trim() === "Elegir rubro") || (rubro === "otros" && !otroRubro)) {
     // Mostrar mensaje de error si algún campo está vacío
     mensajeExito.textContent = 'Por favor, completa todos los campos.';
     mensajeExito.className = 'alert alert-danger mt-3';
     return;
   }
+
   //https://sheet.best/api/sheets/8629ae79-b329-47fa-8b80-ad5d7d5823d4
   try {
     const response = await fetch('https://sheetdb.io/api/v1/l7hmd8vpeufb9', {
